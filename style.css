@@ -11,8 +11,10 @@ h1 {
     color: orange;
 }
 
-section {
+.flexabl {
     display: flex;
+    margin-bottom: 150px;
+
 }
 
 .font {
@@ -32,7 +34,10 @@ section {
     color: white;
     border-radius: 5px;
     font-weight: 700;
+    margin-left: 20px;
 }
+
+
 
 .link2 {
     text-decoration: none;
@@ -43,8 +48,51 @@ section {
     font-weight: 800;
 }
 
-.top-bannaer {
-    background-image: url(image/style.png);
-    background-repeat: no-repeat;
 
+
+
+.dis {
+    display: flex;
+}
+
+.img2 img {
+    width: 800px;
+}
+
+.f1 {
+    display: flex;
+}
+
+.shourov {
+    display: flex;
+    margin-bottom: 80px;
+    padding: 40px;
+}
+
+.happy {
+    padding: 20px;
+
+}
+
+.deve {
+    box-shadow: 5px 5px 40px rgb(87, 79, 79);
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 5px red;
+
+
+}
+
+#side {
+    border-left: 10px solid;
+    border-color: blue;
+    border-image-slice: 1;
+}
+
+#side1 {
+    border-left: 20px solid;
+    border-color: pink;
+    border-image-slice: 1;
 }
